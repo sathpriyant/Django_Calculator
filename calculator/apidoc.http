@@ -1,0 +1,103 @@
+#api code for adding 2 numbers
+
+###
+POST http://127.0.0.1:8000/addition/
+Content-Type : application/json
+
+{
+    "num1":50,
+    "num2":20
+}
+
+#api call for subtraction
+###
+POST http://127.0.0.1:8000/subtraction/
+Content-Type : application/json
+
+{
+    "num1":500,
+    "num2":100
+}
+
+###
+POST http://127.0.0.1:8000/multiplication/
+Content-Type : application/json
+
+{
+    "num1":5,
+    "num2":10
+}
+
+###
+POST http://127.0.0.1:8000/division/
+Content-Type : application/json
+
+{
+    "num1":100,
+    "num2":10
+}
+
+###
+POST http://127.0.0.1:8000/mod/
+Content-Type : application/json
+
+{
+    "num1":10,
+    "num2":2
+}
+
+#api call for percentage
+###
+POST http://127.0.0.1:8000/percentage/
+Content-Type : application/json
+
+{
+    "obtained_marks":350,
+    "total_marks":500
+}
+
+###
+POST http://127.0.0.1:8000/bmi/
+Content-Type : application/json
+
+{
+    "weight":70,
+    "height":1.75
+}
+
+###
+POST http://127.0.0.1:8000/arearect/
+Content-Type : application/json
+
+{
+    "length":20,
+    "width":10
+}
+
+###
+POST http://127.0.0.1:8000/age/
+Content-Type : application/json
+
+{
+    "birth_yr":2006,
+    "current_yr":2026
+}
+
+###
+POST http://127.0.0.1:8000/sinterest/
+Content-Type : application/json
+
+{
+    "principal":10000,
+    "rate":5,
+    "time":2
+}
+
+###
+POST http://127.0.0.1:8000/electricity/
+Content-Type : application/json
+
+{
+    "rate":5,
+    "unit":2
+}
